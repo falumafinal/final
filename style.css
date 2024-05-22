@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(5, 7, 143);
+    position: fixed;
+    width:100%;
+    z-index: 100;
+  }
+
+  .navbar{
+    display: flex;
+    margin-right: 10px
+  }
+
+  .logo{
+    margin-left: 40px;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #6d6363;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .header{
+    height: 60vh !important;
+    background: url(fondo1.jpg) no-repeat center;
+    background-size: cover ;
+ }
+
+ .titulo{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #080306;
+ }
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding: 0 100px;
+  }
+
+.btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 30px 20px;
+    border: 2px solid rgb(66, 104, 228);
+    color: #fff;
+    text-decoration: none;
+    background: #3d6beb;
+    font-family:cursive;
+}
+
+
+
+.content{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background: #7097bb;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+ flex-wrap: wrap;
+ text-align: center;   
+}
+
+.box-container .box{
+  height: 11rem;
+  width: 17rem;
+  background: #7295e0;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(0,0, 0, 5);
+margin: 2rem;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #0a0a0e;
+}
+
+.box-container .box p{
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.about{
+    background: url(fondo2\ \(2\).jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.contact{
+    padding: 20px;
+    background: #171717;
+}
