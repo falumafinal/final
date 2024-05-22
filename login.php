@@ -8,7 +8,7 @@ if (!$conexion) {
 }
 
 // Obtener datos del formulario
-$correo = $_POST['correo'];
+$correo = $_POST['gmail'];
 $dni = $_POST['dni'];
 
 // Consulta SQL para verificar las credenciales del usuario
@@ -21,7 +21,7 @@ if (mysqli_num_rows($resultado) == 1) {
     session_start();
     $_SESSION['correo'] = $correo;
     // Redirigir a la página de inicio
-    header("Location: login.php");
+    header("Location: principal.html");
 } else {
     // Si las credenciales son incorrectas, redirigir de nuevo al formulario de login con un mensaje de error
     header("Location: inicio.html?error=1");

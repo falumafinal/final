@@ -1,0 +1,74 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: rgb(241, 239, 239);
+    margin: 0;
+    padding: 0;
+    background-image: url('fondo2.jpg'); /* Cambia 'lavanderia.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2.centered {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 20px; /* Ajusta este valor según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.411); /* Fondo semitransparente para resaltar el título */
+    color: rgb(121, 119, 250); /* Color del texto que contraste con el fondo */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2em; /* Tamaño de fuente mayor para destacar el título */
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+
+}
+.contenedor{
+    background-color: rgba(208, 211, 221, 0.733);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 1em;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #8f8282;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.register-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.register-link a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
