@@ -4,7 +4,7 @@ body {
     text-decoration: rgb(241, 239, 239);
     margin: 0;
     padding: 0;
-    background-image: url('fondo2.jpg'); /* Cambia 'lavanderia.jpg' por la ruta de tu imagen */
+    background-image: url('fondo2.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -16,14 +16,14 @@ body {
 h2.centered {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 20px; /* Ajusta este valor según sea necesario */
+    top: 20px; 
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.411); /* Fondo semitransparente para resaltar el título */
-    color: rgb(121, 119, 250); /* Color del texto que contraste con el fondo */
+    background-color: rgba(0, 0, 0, 0.411); 
+    color: rgb(121, 119, 250); 
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 2em; /* Tamaño de fuente mayor para destacar el título */
+    font-size: 2em; /
     text-align: center;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 
