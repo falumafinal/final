@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #5456d3;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+ }
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 20PX;
+}
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    background: #2e58a7;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(fondo1.jpg) no-repeat center;
+    background-size: cover;
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 0 150px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #2e58a7;
+    color: aliceblue;
+    text-transform: none;
+    background: #5456d3;
+}
+.btn:hover{
+    background: none;
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau{
+    padding: 60px 0;
+    background: #355ba1;
+}
+.box-conteiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box{
+    height: 170px;
+    width: 270px;
+    background: #2a2da7;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: o 5px rgb(16, 45, 131);
+    margin: 20px;
+}
+.box-container .box h3{
+    font-size: 18px;
+    color: black;
+}
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+.price{
+    background: url(fondo2\ \(2\).jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.about{
+    background: #5456d3;
+    padding: 50px 0;
+}
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.box-container2 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px rgb(92, 53, 53);
+    background: #284c8f;
+    margin: 20px 20px;
+}
+.contact{
+    padding: 50px 0;
+    background: black;
+}
